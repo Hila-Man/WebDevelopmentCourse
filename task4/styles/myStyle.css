@@ -1,0 +1,95 @@
+body {
+    direction: rtl
+}
+#container {
+    border: 5px dotted grey;
+    padding: 35px 35px;
+    font-family: Calibri;
+    width: 960px;
+    margin: 0px auto;
+}
+
+.hila{
+    background-color:aquamarine;
+    width:230px
+}
+.contact{
+    background-color: darkseagreen;
+    width: 230px;
+    font-weight:bold;
+    list-style-type:square;
+}
+
+
+#hila {
+    background-image: url("../picture/hila.jpg");
+    background-repeat: no-repeat;
+    margin-right: 500px;
+    width: 250px;
+    height: 150px;
+    background-size:100%;
+    position:absolute;
+}
+
+    #hila:hover {
+        -webkit-box-shadow: 0 0 10px 10px #98D4C8;
+        box-shadow: 0 0 10px 10px #98D4C8;
+    }
+
+    li {
+        margin-right:20px;
+    }
+
+.pic > a >span {
+    height: 20px;
+    width: 30px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#callme {
+    background-image: url(../picture/facebook.jpg);
+    margin-right: 200px;
+    background-size: 70%;
+}
+
+#whats {
+    background-image: url(../picture/Whatsapp-Main-Article-4.jpg);
+    background-size:75%;
+    margin-right: 95px;
+}
+
+#gmail {
+    background-image: url(../picture/Gmail.png);
+    background-size: 100%;
+}
+
+span:hover {
+    -moz-transform: scale(2) rotate(4deg) translateX(5px) translateY(2px) skewX(3deg) skewY(0deg);
+    -webkit-transform: scale(2) rotate(4deg) translateX(5px) translateY(2px) skewX(3deg) skewY(0deg);
+    -o-transform: scale(2) rotate(4deg) translateX(5px) translateY(2px) skewX(3deg) skewY(0deg);
+    -ms-transform: scale(2) rotate(4deg) translateX(5px) translateY(2px) skewX(3deg) skewY(0deg);
+    transform: scale(2) rotate(4deg) translateX(5px) translateY(2px) skewX(3deg) skewY(0deg);
+}
+
+h2:hover {
+    text-shadow: 3px 3px 3px #5CFFF4;
+}
+
+h2 {
+    font-size: x-large;
+    color:darkcyan;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+    a:hover {
+        color: darkcyan;
+    }
+
+    h1{
+        font-size:xx-large;
+    }
