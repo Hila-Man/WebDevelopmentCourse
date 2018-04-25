@@ -1,0 +1,153 @@
+@font-face{
+font-family: 'theFontName';
+src: url(..//fonts/GveretLevinAlefAlefAlef-Regular.eot);
+src: url(../fonts/GveretLevinAlefAlefAlef-Regular.eot) format('embedded-opentype'),
+     url(../fonts/GveretLevinAlefAlefAlef-Regular.ttf) format('truetype');
+}
+
+body {
+    direction: rtl;
+    background-image: url(../images/1511.jpg);
+    background-position: center;
+    background-repeat: inherit;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left top;
+}
+/*דף הבית*/
+
+#year {
+    width: 33%;
+    margin-left: 121px;
+    
+}
+
+img:hover {
+    -webkit-box-shadow: 0 0 10px 6px #171717;
+    box-shadow: 0 0 10px 6px #56B8CC;
+    -moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);;
+}
+
+#card {
+    width: 30%;
+    margin-left: 127px;
+}
+
+
+/*כותרות*/
+
+#title{
+    font-family: 'Gveret Levin AlefAlefAlef'
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+    position: center;
+    text-align: center;
+}
+
+#title2 {
+    font-family: 'Gveret Levin AlefAlefAlef';
+    color: darkblue;
+    font-size: 30px;
+    margin: 20px;
+    position: center;
+    text-align: center;
+}
+
+.title3 {
+    font-family: 'Gveret Levin AlefAlefAlef';
+    color: darkblue;
+    font-size: 20px;
+    margin: 20px;
+    position: center;
+    text-align: center;
+}
+
+/*תפריס ניווט*/
+
+#wall{
+ list-style: none;
+ width: 700px;
+ margin: 0 auto;
+}
+
+
+nav ul li {
+    display: inline-block;
+    Margin: 0 auto
+}
+nav ul li a {
+    display: block;
+    background-color: darkblue;
+    color: white;
+    width: 160px;
+    height: 40px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Gveret Levin AlefAlefAlef';
+}
+
+nav ul li a:hover {
+    background-color: #3097D2;
+ }
+
+nav ul li a:active {
+     background-color: lightcyan;
+ }
+#photoshop-row .col-sm-4 img{
+  width: 100%;
+}
+/*קטעי טקסט*/
+.text {
+    font-family: Arial;
+    color: black;
+    font-size: 14px;
+    margin: 20px;
+    position: center;
+    text-align: center;
+}
+
+
+img {
+    max-width: 100%;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+}
+
+#frame{
+    width: 100%;
+    height: 80%;
+}
+a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+#photo2 {
+    max-width: 80%;
+}
+.autdio-caption {
+    text-align: right;
+    margin-right: 118px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+.site-info{
+    font-size: 60%;
+    padding-bottom: 5px;
+}
+.site-content{
+    min-height: 400px;
+}
+footer{
+    margin-top: 25px;
+}
+
