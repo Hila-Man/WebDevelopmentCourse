@@ -14,7 +14,7 @@ body {
     background-size: 100%;
     background-position: left top;
 }
-/*ãó äáéú*/
+/*Ã£Ã³ Ã¤Ã¡Ã©Ãº*/
 
 #year {
     width: 33%;
@@ -38,10 +38,10 @@ transform: scale(1.2);;
 }
 
 
-/*ëåúøåú*/
+/*Ã«Ã¥ÃºÃ¸Ã¥Ãº*/
 
 #title{
-    font-family: 'Gveret Levin AlefAlefAlef'
+    font-family: 'Gveret Levin AlefAlefAlef';
     color: white;
     font-size: 50px;
     margin: 20px;
@@ -67,7 +67,7 @@ transform: scale(1.2);;
     text-align: center;
 }
 
-/*úôøéñ ğéååè*/
+/*ÃºÃ´Ã¸Ã©Ã± Ã°Ã©Ã¥Ã¥Ã¨*/
 
 #wall{
  list-style: none;
@@ -102,7 +102,7 @@ nav ul li a:active {
 #photoshop-row .col-sm-4 img{
   width: 100%;
 }
-/*÷èòé è÷ñè*/
+/*Ã·Ã¨Ã²Ã© Ã¨Ã·Ã±Ã¨*/
 .text {
     font-family: Arial;
     color: black;
